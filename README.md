@@ -63,7 +63,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
-<img width="297" height="247" alt="image" src="https://github.com/user-attachments/assets/4b2c42f3-9fa4-45d8-9766-e02a62bd36cd" />
+![catfile5](os5.png)
 
 
 
@@ -88,15 +88,14 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-<img width="310" height="118" alt="image" src="https://github.com/user-attachments/assets/1730c154-56d8-4dc9-9c1c-41bd7d11eaf4" />
-
+![catfile6](os6.png)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-<img width="338" height="112" alt="image" src="https://github.com/user-attachments/assets/97e59753-ab4a-4032-b037-1c48c06efc82" />
+![catfile7](os7.png)
 
 
 
