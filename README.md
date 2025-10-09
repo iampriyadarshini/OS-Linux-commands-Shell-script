@@ -53,13 +53,12 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-<img width="396" height="72" alt="image" src="https://github.com/user-attachments/assets/25047509-258e-4c28-b715-67055684b60c" />
+![catfile3](os3.png)
 
  
 comm file1 file2
  ## OUTPUT
- <img width="427" height="245" alt="image" src="https://github.com/user-attachments/assets/18f0bec7-a982-4949-acae-4d1e6fc61568" />
-
+ ![catfile4](os4.png)
 
  
 diff file1 file2
