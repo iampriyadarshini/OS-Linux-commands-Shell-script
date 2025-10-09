@@ -47,8 +47,7 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-<img width="277" height="161" alt="image" src="https://github.com/user-attachments/assets/fb2ae2aa-8012-49de-81db-efd26f9e7be4" />
-
+![catfile2](os2.png)
 
 
 # Comparing Files
