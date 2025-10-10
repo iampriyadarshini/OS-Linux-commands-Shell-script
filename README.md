@@ -184,83 +184,77 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-<img width="492" height="106" alt="image" src="https://github.com/user-attachments/assets/d4850ee6-4947-4214-a6b8-42b1f5fe89b9" />
+![catfile16](os16.png)
 
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-<img width="386" height="120" alt="image" src="https://github.com/user-attachments/assets/df638c58-5557-4c7d-a44e-8ee6b0c60c62" />
+![catfile17](os17.png)
 
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-<img width="427" height="137" alt="image" src="https://github.com/user-attachments/assets/14d944e8-c908-47df-914f-732a168fb61e" />
-
+![catfile18](os18.png)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-<img width="362" height="116" alt="image" src="https://github.com/user-attachments/assets/1973e76e-d5d4-4134-a2aa-6e9fb5007355" />
-
+![catfile19](os19.png)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-<img width="337" height="112" alt="image" src="https://github.com/user-attachments/assets/6e7e7d05-568c-419b-a595-138e9b063ce2" />
-
+![catfile20](os20.png)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-<img width="355" height="103" alt="image" src="https://github.com/user-attachments/assets/fa62ebb3-e938-4d4b-bed8-543b8d451497" />
+![catfile21](os21.png)
 
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-<img width="343" height="115" alt="image" src="https://github.com/user-attachments/assets/dd268a9a-954f-487f-a9be-eb31dd0304f5" />
+![catfile22](os22.png)
 
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-<img width="396" height="82" alt="image" src="https://github.com/user-attachments/assets/402e4455-270d-4cfc-b14d-07decaa1c6f4" />
-
+![catfile23](os23.png)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-<img width="372" height="80" alt="image" src="https://github.com/user-attachments/assets/b5af9366-e800-47a6-8247-acdf76bdef5b" />
+![catfile24](os24.png)
 
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-<img width="388" height="100" alt="image" src="https://github.com/user-attachments/assets/6b728e84-847d-4a99-bc61-3f20d61960e5" />
+![catfile25](os25.png)
 
 
 
 egrep l{2} newfile
 ## OUTPUT
-<img width="375" height="126" alt="image" src="https://github.com/user-attachments/assets/c858d760-df72-4823-8d5d-def57d3bc0be" />
-
+![catfile26](os26.png)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-<img width="417" height="112" alt="image" src="https://github.com/user-attachments/assets/54cd0d8a-3891-48fb-ab2a-3a8c1050a503" />
-
+![catfile27](os27.png)
 
 
 cat > file23
