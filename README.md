@@ -115,30 +115,29 @@ cat > newfile
 Hello world
 hello world
  
-grep Hello newfile 
+grep Hello newfile  
 ## OUTPUT
-<img width="375" height="60" alt="image" src="https://github.com/user-attachments/assets/5a8e3be1-539b-495a-ab08-19305fbc74c8" />
+![catfile9](os9.png)
 
 
 
 
 grep hello newfile 
 ## OUTPUT
-<img width="302" height="71" alt="image" src="https://github.com/user-attachments/assets/437c2d37-7a18-4431-83e0-0ecc26b1ee04" />
+![catfile10](os10.png)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-<img width="278" height="73" alt="image" src="https://github.com/user-attachments/assets/6cacd9e9-2b65-492d-85ef-7d3542eb2272" />
-
+![catfile11](os11.png)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-<img width="398" height="102" alt="image" src="https://github.com/user-attachments/assets/61327729-f85d-4327-a891-bad6a87ba021" />
+![catfile12](os12.png)
 
 
 
@@ -146,7 +145,7 @@ cat newfile | grep -i "hello"
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-<img width="383" height="90" alt="image" src="https://github.com/user-attachments/assets/8b9e1e08-1738-4983-a3c4-5e94851cb62c" />
+![catfile13](os13.png)
 
 
 
@@ -154,14 +153,13 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-<img width="826" height="325" alt="image" src="https://github.com/user-attachments/assets/7a98a0cf-c7a4-4f8b-9a1f-b20039124801" />
-
+![catfile14](os14.png)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
-<img width="311" height="97" alt="image" src="https://github.com/user-attachments/assets/70e53af8-4b0a-4dd1-9eff-082a18bb42d3" />
+![catfile15](os15.png)
 
 
 
