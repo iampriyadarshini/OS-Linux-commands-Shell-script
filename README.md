@@ -350,24 +350,24 @@ seq 3 | sed '2a hello'
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-<img width="371" height="132" alt="image" src="https://github.com/user-attachments/assets/b5d77211-6d2b-4c8c-bb37-ac0a781d5813" />
+![catfile40](os40.png)
 
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-<img width="402" height="132" alt="image" src="https://github.com/user-attachments/assets/d6f1e312-61af-4b96-88bf-7d8202c2f16a" />
-
+![catfile41](os41.png)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-<img width="431" height="133" alt="image" src="https://github.com/user-attachments/assets/f8e3338e-9fa9-4de4-ad5c-f9ec2b7c8bb6" />
-
+![catfile42](os42.png)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![catfile43](os43.png)
 
 
 #Sorting File content
