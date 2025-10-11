@@ -273,49 +273,45 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-<img width="307" height="96" alt="image" src="https://github.com/user-attachments/assets/234ae51e-b767-40c3-98fb-f3a27a2e6f5a" />
-
+![catfile28](os28.png)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-<img width="315" height="80" alt="image" src="https://github.com/user-attachments/assets/bf5ccf3a-a4c0-4605-9719-8ef5c0f0ee0a" />
+![catfile29](os29.png)
 
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-<img width="436" height="240" alt="image" src="https://github.com/user-attachments/assets/2529cd39-fd61-4a9c-9392-251d008f4cd5" />
-
+![catfile30](os30.png)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-<img width="417" height="241" alt="image" src="https://github.com/user-attachments/assets/0fe81744-b191-4262-ac64-fdcb6889aa41" />
-
+![catfile31](os31.png)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-<img width="453" height="253" alt="image" src="https://github.com/user-attachments/assets/3979e6a1-702c-4fc8-8d48-0c4c5fdc53f6" />
-
+![catfile32](os32.png)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-<img width="442" height="178" alt="image" src="https://github.com/user-attachments/assets/3a06a269-ac8c-4038-b331-137f1c2fbe5e" />
+![catfile33](os33.png)
 
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-<img width="417" height="110" alt="image" src="https://github.com/user-attachments/assets/9f0ea4f2-32ae-47ad-a5b9-f5adf6071948" />
+![catfile34](os34.png)
 
 
 
@@ -323,36 +319,32 @@ sed -n -e '2,/Joe/p' file23
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-<img width="385" height="107" alt="image" src="https://github.com/user-attachments/assets/d18805e9-32d0-45a1-9ec5-343c3c045c81" />
+![catfile35](os35.png)
 
 
 
 
 seq 10 
 ## OUTPUT
-<img width="426" height="295" alt="image" src="https://github.com/user-attachments/assets/5b875736-1f3b-4a30-82b6-f4b7ef820655" />
-
+![catfile36](os36.png)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-<img width="370" height="118" alt="image" src="https://github.com/user-attachments/assets/d6ded925-af34-40ba-86bc-0149f83b963c" />
-
+![catfile37](os37.png)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-<img width="380" height="121" alt="image" src="https://github.com/user-attachments/assets/725b7b97-1143-4700-bf7f-05a19bd1176a" />
-
+![catfile38](os38.png)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-<img width="421" height="142" alt="image" src="https://github.com/user-attachments/assets/15c7aa57-3287-41bf-96db-e248985d71d9" />
-
+![cfile39](os39.png)
 
 
 
