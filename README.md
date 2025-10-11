@@ -381,8 +381,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-<img width="406" height="157" alt="image" src="https://github.com/user-attachments/assets/87cb5d18-b8c3-427d-be9c-8ff3ee81853e" />
-
+![catfile44](os44.png)
 
 
 cat > file22
@@ -396,15 +395,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-<img width="365" height="165" alt="image" src="https://github.com/user-attachments/assets/6122aaf3-9e19-4895-a0c5-5a9d309b4a91" />
-
+![catfile45](os45.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
- <img width="491" height="221" alt="image" src="https://github.com/user-attachments/assets/cf2ac70d-d99f-4d85-91f8-27a15ae78a2e" />
+![catfile46](os46.png)
 
 
 cat < urllist.txt
