@@ -1102,8 +1102,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
- <img width="387" height="165" alt="image" src="https://github.com/user-attachments/assets/2a7e62df-b409-4276-aed1-5077fe046c0f" />
-
+![catfile82](os82.png)
 
  
  ./funcex.sh 1 2
@@ -1120,7 +1119,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
-<img width="412" height="176" alt="image" src="https://github.com/user-attachments/assets/c93a595d-1524-48c7-9e0f-8c0f03e9b014" />
+![catfile83](os83.png)
 
 $ ./argshift.sh 1 2 3
  
@@ -1140,7 +1139,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
-<img width="338" height="167" alt="image" src="https://github.com/user-attachments/assets/55cb799d-5391-4f96-a650-61c075f68c12" />
+![catfile84](os84.png)
 
  
 cat argshift.sh
@@ -1155,7 +1154,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- <img width="362" height="386" alt="image" src="https://github.com/user-attachments/assets/80e57031-f638-4b31-bf7a-4293b574e32b" />
+![catfile85](os85.png)
 
  
  
@@ -1188,7 +1187,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT
-<img width="433" height="332" alt="image" src="https://github.com/user-attachments/assets/d5b62ff1-a054-4f43-83c1-2fc65f0f9d1b" />
+![catfile86](os86.png)
 
  
 cat > palindrome.sh
@@ -1217,7 +1216,7 @@ else
 fi
 ```
 ## OUTPUT 
-<img width="373" height="156" alt="image" src="https://github.com/user-attachments/assets/92aef06d-6f39-475c-aaa7-2a6f92f759e8" />
+![catfile87](os87.png)
 
 
 
